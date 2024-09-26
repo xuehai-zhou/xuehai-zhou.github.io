@@ -1,0 +1,35 @@
+<!-- _includes/project_entry.liquid -->
+<li class="d-flex align-items-center my-4">
+  {% if project.img %}
+    <!-- Display image -->
+    <div class="flex-shrink-0">
+      <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" style="width: 200px;" class="mr-3">
+    </div>
+  {% elsif project.gif %}
+    <!-- Display GIF -->
+    <div class="flex-shrink-0">
+      <img src="{{ project.gif | relative_url }}" alt="{{ project.title }}" style="width: 200px;" class="mr-3">
+    </div>
+  {% elsif project.video %}
+    <!-- Display video -->
+    <div class="flex-shrink-0">
+      <video width="200" controls class="mr-3">
+        <source src="{{ project.video | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  {% endif %}
+  <div class="flex-grow-1">
+    <h5 class="mt-0 mb-1">
+      {% if project.url %}
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h5>
+    <p>{{ project.description | markdownify }}</p>
+    {% if project.link %}
+      <a href="{{ project.link | relative_url }}">Read more</a>
+    {% endif %}
+  </div>
+</li>

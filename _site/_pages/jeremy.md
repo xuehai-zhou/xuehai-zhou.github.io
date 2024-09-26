@@ -1,0 +1,1 @@
+Tianzi (Jeremy) Yang is a senior AI/ML Engineer with a Master's and Bachelor's degree in Computer Science from McGill University. His expertise spans developing innovative AI solutions and leading complex projects across diverse domains, including healthcare, warehouse management, intelligent transportation, and smart agriculture.
