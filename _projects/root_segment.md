@@ -3,7 +3,7 @@ layout: page
 is_project: true
 title: 3D root system segmentation and skeletonization
 description: This project develops 3D methods for root system architecture analysis, including primary root segmentation, lateral root separation, skeleton extraction, and downstream trait computation for phenotyping and genotyping studies.
-img: assets/gif/skeleton_rotation.gif
+img: assets/gif/skeleton_rotation_op.gif
 importance: 2
 category: work
 related_publications: false
@@ -228,19 +228,19 @@ This limitation motivated the development of a more advanced method.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/root_system_demo_origin.gif" title="soybean_input" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/gif/root_system_input.gif" title="soybean_input" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Input soybean root system.
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/root_system_demo.gif" title="soybean_segmentation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/gif/root_system_segmentation.gif" title="soybean_segmentation" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Segmented individual root paths.
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/skeleton_rotation.gif" title="soybean_skeleton" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/gif/skeleton_rotation_op.gif" title="soybean_skeleton" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Bio-inspired skeletonization result.
         </div>
