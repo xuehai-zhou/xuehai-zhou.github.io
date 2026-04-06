@@ -213,9 +213,9 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook  # disabled: encoding bug; using pre-converted HTML
   - jekyll-link-attributes
-  - jekyll-minifier
+  # - jekyll-minifier  # disabled for local dev (causes Errno::EINTR on macOS with Ruby 3.2)
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
