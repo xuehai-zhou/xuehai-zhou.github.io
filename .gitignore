@@ -11,6 +11,11 @@ Gemfile 2.lock
 # Node
 node_modules/
 
+# Large GIFs (exceed GitHub 50/100MB limit)
+assets/gif/skeleton_rotation.gif
+assets/gif/ct_scan_slices.gif
+assets/gif/tomato_demo.gif
+
 # OS files
 .DS_Store
 Thumbs.db
